@@ -1,15 +1,27 @@
-Introduction to Vue
-===================
+# vueintro
 
-Installation 
-------------
+> trying vue for the first time
 
-> node version `node -v`
-> npm version `npm -v`
-> `npm install npm@latest -g` to install latest version
+## Build Setup
 
-## Installing Vue Cli
-`npm install vue-cli -g` g is for global. It is optional
-`vue init webpack`
+``` bash
+# install dependencies
+npm install
 
+# serve with hot reload at localhost:8080
+npm run dev
 
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+
+# run unit tests
+npm run unit
+
+# run all tests
+npm test
+```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
